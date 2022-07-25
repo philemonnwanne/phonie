@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+    <title>phonie</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <h2>make some magic here!!</h2>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header></header>
+
+        <!-- CONTENT -->
+        <main id="main">
+            <section id="register-form" class="form-container">
+                <!-- Register Form -->
+                <div id="formgroup" class="form">
+                    <h2>PhoniE</h2>
+                    <form id="myform">
+                        <div class="input-box" id="inputme">
+                            <i id="teleicon" class="icon"></i>
+                            <input type="tel" id="phoneinput" name="phone" placeholder="Phone Number" required />
+                            <div id="phone_error" class="error hidden">
+                                Please enter a valid phone number
+                            </div>
+                        </div>
+
+                        <div id="button-box">
+                            <button type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /Register Form -->
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer"></footer>
+    </div>
 
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
