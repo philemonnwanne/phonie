@@ -1,0 +1,124 @@
+/* Declaring variables for styling the form */
+:root {
+    --bgColor: #101010;
+    --formColor: black;
+    --txtColor: white;
+    --txtSecondaryColor: #f2f2f2;
+    --inputBoxBg: transparent;
+    --txtBtnColor: #ffffff;
+    --txtBtnSecondaryColor: #000000;
+    --btnBorderColor: #ffffff;
+    --btnBgColor: transparent;
+    --btnBgSecondaryColor: #ffffff;
+    --font-family: "Courier New", Courier, monospace;
+  }
+  
+  * {
+    font-family: var(--font-family);
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: var(--bgColor); */
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    color: #fff;
+  }
+  
+  .form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 30%;
+    padding: 40px 100px 40px 100px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: var(--formColor);
+  }
+  
+  .form h2 {
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    color: #5f2c82;
+    text-align: center;
+  }
+  
+  ::placeholder {
+    color: var(--txtColor);
+    opacity: 1;
+  }
+  
+  .input-box input {
+    background: red;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--txtColor);
+    border: none;
+    border-radius: 10px;
+    border-top: 1.8px solid rgb(10, 115, 105);
+    border-bottom: 1.8px solid grey;
+    background: var(--inputBoxBg);
+    text-align: center;
+  }
+  
+  .input-box i {
+    position: absolute;
+  }
+  
+  .mtn {
+    background: url("icons/telecoms/mtn.svg");
+  }
+  
+  .etisalat {
+    background: url("icons/telecoms/9mobile.svg");
+  }
+  
+  .airtel {
+    background: url("icons/telecoms/airtel.svg");
+  }
+  
+  .glo {
+    background: url("icons/telecoms/globacom.svg");
+  }
+  
+  
+  .mtn,
+  .airtel,
+  .glo,
+  .etisalat {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 9px;
+  }
+  
+  .form form button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    background-color: rgb(10, 115, 105);
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+  }
+  
+  .error {
+    color: red;
+    size: 80%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* form style  */
+  
